@@ -863,7 +863,7 @@ LowerEVBerry:
 	jmp z, WontHaveAnyEffectMessage
 
 	ld a, [hl]
-	sub 10
+	sub 40
 	jr nc, .ev_value_ok
 	xor a
 
@@ -888,7 +888,7 @@ VitaminEffect:
 	jmp c, ItemNotUsed_ExitMenu
 
 	call SetUpEVModifier
-	ld a, 10
+	ld a, 40
 	call CheckEVCap
 	jr nc, .ev_value_ok
 	and a
