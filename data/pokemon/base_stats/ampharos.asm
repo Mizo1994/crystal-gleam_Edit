@@ -16,7 +16,7 @@ else
 	db 204 ; base exp
 endc
 	db NO_ITEM, NO_ITEM ; held items
-	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	dn GENDER_F50, HATCH_FAST ; gender ratio, step cycles to hatch
 
 	abilities_for AMPHAROS, STATIC, STATIC, MOLD_BREAKER
 	db GROWTH_MEDIUM_SLOW ; growth rate
