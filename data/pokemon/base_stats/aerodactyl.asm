@@ -5,7 +5,7 @@
 	db 45 ; catch rate
 	db 202 ; base exp
 	db NO_ITEM, NO_ITEM ; held items
-	dn GENDER_F12_5, HATCH_FAST ; gender ratio, step cycles to hatch
+	dn GENDER_F12_5, HATCH_FASTEST ; gender ratio, step cycles to hatch
 
 	abilities_for AERODACTYL, ROCK_HEAD, UNNERVE, TOUGH_CLAWS
 	db GROWTH_SLOW ; growth rate
