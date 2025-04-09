@@ -5,7 +5,7 @@
 	db 150 ; catch rate
 	db 37 ; base exp
 	db NO_ITEM, MOON_STONE ; held items
-	dn GENDER_F75, HATCH_FASTER ; gender ratio, step cycles to hatch
+	dn GENDER_F75, HATCH_FASTEST ; gender ratio, step cycles to hatch
 
 	abilities_for CLEFFA, CUTE_CHARM, MAGIC_GUARD, CUTE_CHARM
 	db GROWTH_FAST ; growth rate
