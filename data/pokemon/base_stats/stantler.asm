@@ -14,7 +14,7 @@ endc
 	db 45 ; catch rate
 	db 165 ; base exp
 	db NO_ITEM, NO_ITEM ; held items
-	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	dn GENDER_F50, HATCH_FASTEST ; gender ratio, step cycles to hatch
 
 	abilities_for STANTLER, INTIMIDATE, FRISK, SAP_SIPPER
 	db GROWTH_SLOW ; growth rate
