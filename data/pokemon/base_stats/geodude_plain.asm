@@ -5,7 +5,7 @@
 	db 255 ; catch rate
 	db 86 ; base exp
 	db NO_ITEM, EVERSTONE ; held items
-	dn GENDER_F50, HATCH_FAST ; gender ratio, step cycles to hatch
+	dn GENDER_F50, HATCH_FASTEST ; gender ratio, step cycles to hatch
 
 	abilities_for GEODUDE, ROCK_HEAD, STURDY, SAND_VEIL
 	db GROWTH_MEDIUM_SLOW ; growth rate
