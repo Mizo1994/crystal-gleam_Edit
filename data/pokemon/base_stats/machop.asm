@@ -5,7 +5,7 @@
 	db 180 ; catch rate
 	db 88 ; base exp
 	db NO_ITEM, FOCUS_BAND ; held items
-	dn GENDER_F25, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	dn GENDER_F25, HATCH_FASTEST ; gender ratio, step cycles to hatch
 
 	abilities_for MACHOP, GUTS, NO_GUARD, STEADFAST
 	db GROWTH_MEDIUM_SLOW ; growth rate
