@@ -5,7 +5,7 @@
 	db 170 ; catch rate
 	db 76 ; base exp
 	db ORAN_BERRY, ORAN_BERRY ; held items
-	dn GENDER_F75, HATCH_FASTER ; gender ratio, step cycles to hatch
+	dn GENDER_F75, HATCH_FASTEST ; gender ratio, step cycles to hatch
 
 if DEF(FAITHFUL)
 	abilities_for JIGGLYPUFF, CUTE_CHARM, COMPETITIVE, FRISK
