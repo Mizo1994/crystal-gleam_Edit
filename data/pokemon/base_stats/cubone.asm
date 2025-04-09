@@ -5,7 +5,7 @@
 	db 190 ; catch rate
 	db 87 ; base exp
 	db NO_ITEM, THICK_CLUB ; held items
-	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	dn GENDER_F50, HATCH_FASTEST ; gender ratio, step cycles to hatch
 
 if DEF(FAITHFUL)
 	abilities_for CUBONE, ROCK_HEAD, LIGHTNING_ROD, BATTLE_ARMOR
