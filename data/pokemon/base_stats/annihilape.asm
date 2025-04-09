@@ -5,7 +5,7 @@
 	db 45 ; catch rate
 	db 189 ; base exp
 	db NO_ITEM, NO_ITEM ; held items
-	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	dn GENDER_F50, HATCH_FAST ; gender ratio, step cycles to hatch
 
 if DEF(FAITHFUL)
 	abilities_for ANNIHILAPE, VITAL_SPIRIT, INNER_FOCUS, DEFIANT
