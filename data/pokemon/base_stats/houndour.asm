@@ -5,7 +5,7 @@
 	db 120 ; catch rate
 	db 114 ; base exp
 	db NO_ITEM, NO_ITEM ; held items
-	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	dn GENDER_F50, HATCH_FASTEST ; gender ratio, step cycles to hatch
 
 	abilities_for HOUNDOUR, EARLY_BIRD, FLASH_FIRE, UNNERVE
 	db GROWTH_SLOW ; growth rate
