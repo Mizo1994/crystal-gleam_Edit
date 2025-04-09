@@ -5,7 +5,7 @@
 	db 45 ; catch rate
 	db 64 ; base exp
 	db NO_ITEM, NO_ITEM ; held items
-	dn GENDER_F12_5, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	dn GENDER_F12_5, HATCH_FASTEST ; gender ratio, step cycles to hatch
 
 if DEF(FAITHFUL)
 	abilities_for CHIKORITA, OVERGROW, OVERGROW, LEAF_GUARD
