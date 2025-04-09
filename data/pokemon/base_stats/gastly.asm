@@ -5,7 +5,7 @@
 	db 190 ; catch rate
 	db 95 ; base exp
 	db NO_ITEM, SPELL_TAG ; held items
-	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	dn GENDER_F50, HATCH_FASTEST ; gender ratio, step cycles to hatch
 
 	abilities_for GASTLY, LEVITATE, LEVITATE, LEVITATE
 	db GROWTH_MEDIUM_SLOW ; growth rate
