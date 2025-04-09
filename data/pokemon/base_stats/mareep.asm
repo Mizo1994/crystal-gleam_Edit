@@ -5,7 +5,7 @@
 	db 235 ; catch rate
 	db 59 ; base exp
 	db NO_ITEM, NO_ITEM ; held items
-	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	dn GENDER_F50, HATCH_FASTEST ; gender ratio, step cycles to hatch
 
 if DEF(FAITHFUL)
 	abilities_for MAREEP, STATIC, STATIC, STATIC
