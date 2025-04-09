@@ -5,7 +5,7 @@
 	db 190 ; catch rate
 	db 96 ; base exp
 	db NO_ITEM, SHARP_BEAK ; held items
-	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	dn GENDER_F50, HATCH_FASTEST ; gender ratio, step cycles to hatch
 
 	abilities_for DODUO, RUN_AWAY, EARLY_BIRD, TANGLED_FEET
 	db GROWTH_MEDIUM_FAST ; growth rate
