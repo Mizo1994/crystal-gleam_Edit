@@ -14,7 +14,7 @@ else
 	db 128 ; base exp
 endc
 	db NO_ITEM, HARD_STONE ; held items
-	dn GENDER_F75, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	dn GENDER_F75, HATCH_FASTEST ; gender ratio, step cycles to hatch
 
 	abilities_for CORSOLA, HUSTLE, NATURAL_CURE, REGENERATOR
 	db GROWTH_FAST ; growth rate
