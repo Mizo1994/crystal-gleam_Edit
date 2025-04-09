@@ -5,7 +5,7 @@
 	db 45 ; catch rate
 	db 211 ; base exp
 	db NO_ITEM, NO_ITEM ; held items
-	dn GENDER_F0, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	dn GENDER_F0, HATCH_FASTEST ; gender ratio, step cycles to hatch
 
 	abilities_for TAUROS_PALDEAN, INTIMIDATE, ANGER_POINT, CUD_CHEW
 	db GROWTH_SLOW ; growth rate
