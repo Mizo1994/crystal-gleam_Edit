@@ -5,7 +5,7 @@
 	db 190 ; catch rate
 	db 63 ; base exp
 	db ALWAYS_ITEM_2, ASPEAR_BERRY ; held items
-	dn GENDER_F75, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	dn GENDER_F75, HATCH_FASTEST ; gender ratio, step cycles to hatch
 
 if DEF(FAITHFUL)
 	abilities_for VULPIX, FLASH_FIRE, FLASH_FIRE, DROUGHT
