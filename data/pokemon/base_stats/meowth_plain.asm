@@ -5,7 +5,7 @@
 	db 255 ; catch rate
 	db 69 ; base exp
 	db NO_ITEM, AMULET_COIN ; held items
-	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	dn GENDER_F50, HATCH_FASTEST ; gender ratio, step cycles to hatch
 
 	abilities_for MEOWTH, PICKUP, TECHNICIAN, UNNERVE
 	db GROWTH_MEDIUM_FAST ; growth rate
