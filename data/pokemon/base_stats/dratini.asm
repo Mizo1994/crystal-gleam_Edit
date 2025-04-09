@@ -5,7 +5,7 @@
 	db 45 ; catch rate
 	db 67 ; base exp
 	db NO_ITEM, DRAGON_SCALE ; held items
-	dn GENDER_F50, HATCH_SLOWEST ; gender ratio, step cycles to hatch
+	dn GENDER_F50, HATCH_FASTEST ; gender ratio, step cycles to hatch
 
 	abilities_for DRATINI, SHED_SKIN, SHED_SKIN, MARVEL_SCALE
 	db GROWTH_SLOW ; growth rate
