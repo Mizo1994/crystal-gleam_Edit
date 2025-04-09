@@ -5,7 +5,7 @@
 	db 45 ; catch rate
 	db 166 ; base exp
 	db NO_ITEM, NO_ITEM ; held items
-	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	dn GENDER_F50, HATCH_FASTEST ; gender ratio, step cycles to hatch
 
 	abilities_for TANGELA, CHLOROPHYLL, LEAF_GUARD, REGENERATOR
 	db GROWTH_MEDIUM_FAST ; growth rate
