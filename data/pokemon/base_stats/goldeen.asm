@@ -5,7 +5,7 @@
 	db 225 ; catch rate
 	db 111 ; base exp
 	db NO_ITEM, NO_ITEM ; held items
-	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio
+	dn GENDER_F50, HATCH_FASTEST ; gender ratio
 
 	abilities_for GOLDEEN, SWIFT_SWIM, WATER_VEIL, LIGHTNING_ROD
 	db GROWTH_MEDIUM_FAST ; growth rate
