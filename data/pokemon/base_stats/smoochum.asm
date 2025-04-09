@@ -5,7 +5,7 @@
 	db 45 ; catch rate
 	db 87 ; base exp
 	db ALWAYS_ITEM_2, ASPEAR_BERRY ; held items
-	dn GENDER_F100, HATCH_MEDIUM_SLOW ; gender ratio, step cycles to hatch
+	dn GENDER_F100, HATCH_FASTEST ; gender ratio, step cycles to hatch
 
 if DEF(FAITHFUL)
 	abilities_for SMOOCHUM, OBLIVIOUS, FOREWARN, HYDRATION
