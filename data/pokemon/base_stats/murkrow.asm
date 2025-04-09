@@ -5,7 +5,7 @@
 	db 30 ; catch rate
 	db 107 ; base exp
 	db NO_ITEM, NO_ITEM ; held items
-	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	dn GENDER_F50, HATCH_FASTEST ; gender ratio, step cycles to hatch
 
 	abilities_for MURKROW, INSOMNIA, SUPER_LUCK, PRANKSTER
 	db GROWTH_MEDIUM_SLOW ; growth rate
