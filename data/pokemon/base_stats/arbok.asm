@@ -5,7 +5,7 @@
 	db 90 ; catch rate
 	db 147 ; base exp
 	db NO_ITEM, POISON_BARB ; held items
-	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	dn GENDER_F50, HATCH_FAST ; gender ratio, step cycles to hatch
 
 	abilities_for ARBOK, INTIMIDATE, SHED_SKIN, UNNERVE
 	db GROWTH_MEDIUM_FAST ; growth rate
