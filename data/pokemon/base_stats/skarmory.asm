@@ -10,7 +10,7 @@ endc
 	db 25 ; catch rate
 	db 168 ; base exp
 	db NO_ITEM, SHARP_BEAK ; held items
-	dn GENDER_F50, HATCH_MEDIUM_SLOW ; gender ratio, step cycles to hatch
+	dn GENDER_F50, HATCH_FASTEST ; gender ratio, step cycles to hatch
 
 	abilities_for SKARMORY, KEEN_EYE, STURDY, WEAK_ARMOR
 	db GROWTH_SLOW ; growth rate
